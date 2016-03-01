@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaScript Demo</title>
+
+    <script src="Scripts/jquery-2.2.1.min.js"></script>
+    <link href="CSS/default.css" rel="stylesheet" />
+    <script src="Scripts/jQueryScripts/PopulateSelectBoxes.js"></script>
+    <script src="Scripts/jQueryScripts/ComputeDuration.js"></script>
+    <script src="Scripts/jQueryScripts/ClearClockTimes.js"></script>
+</head>
+<body style="font-family:Arial">    
+    <table class="table-bordered;" style="width:auto">
+        <thead>
+            <tr class="HeaderRow">
+                <th></th>
+                <th id="StartCell" >Start</th>
+                <th id="EndCell">End</th>
+                <th id="DurationCell">Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="DeviceCell">Device 1</th>
+                <td class="center"><select id="cell00" onchange="UpdateCell00()"></select></td>
+                <td class="center"><select id="cell01" onchange="UpdateCell01()"></select></td>
+                <td id="Duration1" class="center"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="DeviceCell">Device 2</th>
+                <td class="center"><select id="cell10" onchange="UpdateCell10()"></select></td>
+                <td class="center"><select id="cell11" onchange="UpdateCell11()"></select></td>
+                <td id="Duration2" class="center"></td>
+                <td></td>
+            </tr>
+            <tr class="ButtonRow">
+                <th class="ButtonRow"></th>
+                <td class="ButtonRow"><button name="Button1" onclick="ClearStartTimes()">Clear Start</button></td>
+                <td class="ButtonRow"><button name="Button2" onclick="ClearEndTimes()">Clear End</button></td>
+                <td class="ButtonRow"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+G:\Sandbox\jQueryDemo\jQueryDemo\bin\jQueryDemo.dll.config
+G:\Sandbox\jQueryDemo\jQueryDemo\bin\jQueryDemo.dll
+G:\Sandbox\jQueryDemo\jQueryDemo\bin\jQueryDemo.pdb
+G:\Sandbox\jQueryDemo\jQueryDemo\obj\Debug\JavaScriptDemo.csprojResolveAssemblyReference.cache
+G:\Sandbox\jQueryDemo\jQueryDemo\obj\Debug\jQueryDemo.dll
+G:\Sandbox\jQueryDemo\jQueryDemo\obj\Debug\jQueryDemo.pdb

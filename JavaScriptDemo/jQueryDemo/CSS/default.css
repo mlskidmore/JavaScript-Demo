@@ -1,0 +1,33 @@
+﻿body {
+}
+
+td {
+    background-color:beige;
+}
+
+.DeviceCell {
+    background-color:darkkhaki;
+}
+
+.HeaderRow {
+    background-color:darkgreen;
+}
+
+.ButtonRow {
+    background-color:darkgreen;
+}
+
+.center {
+    text-align:center;
+}
+#StartCell {
+    color:white;
+}
+
+#EndCell {
+    color:white;
+}
+
+#DurationCell{
+    color:white;
+}
